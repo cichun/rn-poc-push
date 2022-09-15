@@ -26,7 +26,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.robertmaciaszczyk.rnpocpush"
+      "package": "com.robertmaciaszczyk.rnpocpush",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -35,6 +36,18 @@
       "eas": {
         "projectId": "e3b31a91-e350-4119-bec7-dbb3222689b9"
       }
-    }
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/PushIcon.png",
+          "color": "#ffffff",
+          "sounds": [
+            "./assets/modem_dialing.wav"
+          ]
+        }
+      ]
+    ]
   }
 }
