@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "expo": "~46.0.9",
+    "expo-constants": "~13.2.4",
     "expo-dev-client": "~1.2.1",
     "expo-device": "~4.3.0",
     "expo-notifications": "~0.16.1",
